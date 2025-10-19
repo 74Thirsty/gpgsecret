@@ -50,9 +50,9 @@ Choose an option:
 ```
 
 ### Add a secret
-- Service name: `aes`
-- Secret name: `AAVE_SUBGRAPH`
-- Secret value: `https://gateway.thegraph.com/...`
+- Service name: `servicename`
+- Secret name: `keyname`
+- Secret value: `secret`
 
 Stored as:
 ```
@@ -60,13 +60,13 @@ secrets/aes/AAVE_SUBGRAPH.gpg
 ```
 
 ### Decrypt a secret
-- Service name: `aes`
-- Secret name: `AAVE_SUBGRAPH`
+- Service name: `servicename`
+- Secret name: `keynae`
 
 Output:
 ```
 🔓 Decrypted value:
-https://gateway.thegraph.com/...
+secret
 ```
 
 ---
